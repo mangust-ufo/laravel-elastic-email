@@ -7,7 +7,7 @@ A Laravel wrapper for Elastic Email
 Add Laravel Elastic Email as a dependency using the composer CLI:
 
 ```bash
-composer require chocoholics/laravel-elastic-email
+composer require mangust-ufo/laravel-elastic-email
 ```
 
 Next, add the following to your config/services.php and add the correct values to your .env file
@@ -26,7 +26,7 @@ Next, in config/app.php, comment out Laravel's default MailServiceProvider. If u
      */
     ...
 //    Illuminate\Mail\MailServiceProvider::class,
-    Chocoholics\LaravelElasticEmail\MailServiceProvider::class,
+    UfoEngineering\LaravelElasticEmail\MailServiceProvider::class,
     ...
 ],
 ```

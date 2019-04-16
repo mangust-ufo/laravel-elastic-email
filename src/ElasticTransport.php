@@ -1,6 +1,6 @@
 <?php
 
-namespace Chocoholics\LaravelElasticEmail;
+namespace UfoEngineering\LaravelElasticEmail;
 
 use GuzzleHttp\ClientInterface;
 use Illuminate\Mail\Transport\Transport;
